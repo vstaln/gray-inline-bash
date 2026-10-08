@@ -1,7 +1,6 @@
 //! gray-inline-bash — run shell commands inline, no model turn needed.
 //!
-//! Port of pi's `inline-bash` extension. Claims `input/submit`
-//! (protocol 2.0): a submitted `!<cmd>` or a line starting with `$ ` runs in
+//! Claims `input/submit` (protocol 2.0): a submitted `!<cmd>` or a line starting with `$ ` runs in
 //! the session cwd via `timeout 10 sh -c`, the output (capped at 4 KB) is
 //! shown via `host/say`, and the input is swallowed (`{handled: true}`).
 //!
