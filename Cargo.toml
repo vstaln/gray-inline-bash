@@ -1,0 +1,17 @@
+[package]
+name = "gray-inline-bash"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.91"
+license = "MIT"
+description = "Run !cmd / $ cmd inline and show output without a model turn. Port of pi's inline-bash."
+
+[[bin]]
+name = "gray-inline-bash"
+path = "src/main.rs"
+
+[dependencies]
+serde_json = "1"
+
+[profile.release]
+strip = true
