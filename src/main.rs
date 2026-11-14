@@ -30,7 +30,7 @@ fn manifest() -> Value {
         "version": env!("CARGO_PKG_VERSION"),
         "protocol": "2.0",
         "tools": [],
-        "description": "run",
+        "description": "run !cmd inline without a model turn",
         "commands": ["/inline"],
         "hooks": ["input/submit"],
         "capabilities": ["host.say"],
