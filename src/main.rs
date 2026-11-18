@@ -32,6 +32,7 @@ fn manifest() -> Value {
         "tools": [],
         "description": "run !cmd inline without a model turn",
         "commands": ["/inline"],
+        "command_descriptions": {"/inline": "toggle inline !cmd shell runs"},
         "hooks": ["input/submit"],
         "capabilities": ["host.say"],
     })
